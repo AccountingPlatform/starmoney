@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.clearfix {
+    clear:both;
+}
+.clearfix:after {
+    content:'';
+    clear:both;
+}
+
+#content {
+    width:80%;
+    margin: 0 auto;
+}
+#menu {
+    height: 30px;
+    line-height: 30px;
+}
+
+#menu ul li {
+    float: left;
+    padding: 0 10px;
+}
+
+#detail_list table {
+    width: 100%;
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+
+#detail_list table th, td {
+    text-align: center;
+    height: 20px;
+    line-height: 20px;
+    border: 1px solid #000;
+}
+
+#detail_form {
+    padding:20px;
+    border:1px solid #000000;
+}
+.control{
+    padding: 10 0;
+    line-height:20px;
+    clear:both;
+}
+.control:after{
+    clear:both;
+    content:"";
+}
+.control label {
+    display:block;
+    width:100px;
+    float:left
+}
+.control .data {
+    width:250px;
+    float:left;
+}
+.control .data input {
+    height:20px;
+    line-height:20px;
+    width:200px;
+}
+.control .data textarea {
+    width:200px;
+}
+.control .button input {
+    height:30px;
+    padding: 0 10px;
+    margin:10px 0;
+}
+.control i {
+    display: block;
+    float:left;
+}

@@ -10,5 +10,5 @@ return array(
     "dbname" => "starmoney",
     "dbuser" => "root",
     "dbpwd"  => "root",
-    "charset" => "utf-8"
+    "charset" => "utf8"
 );
