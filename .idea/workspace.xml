@@ -1,18 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a7f7f03b-55ff-498b-9e9f-b3ab206e40a8" name="Default" comment="创建add.php,delete.php,edit.php">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/del.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/add.php" afterPath="$PROJECT_DIR$/www/add.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etc/dbconfig.php" afterPath="$PROJECT_DIR$/etc/dbconfig.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/edit.php" afterPath="$PROJECT_DIR$/www/edit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/index.php" afterPath="$PROJECT_DIR$/www/index.php" />
+    <list default="true" id="a7f7f03b-55ff-498b-9e9f-b3ab206e40a8" name="Default" comment="完成Version1.0版本所有功能：财务列表，添加，编辑，删除">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="D:\starmoney\www\delete.php" afterPath="$PROJECT_DIR$/www/env.php" />
     </list>
     <ignored path="starmoney.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -326,7 +316,11 @@
       <created>1406037752360</created>
       <updated>1406037752360</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="完成Version1.0版本所有功能：财务列表，添加，编辑，删除">
+      <created>1406042747036</created>
+      <updated>1406042747036</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -371,7 +365,8 @@
     <MESSAGE value="添加数据库结构SQL文件和数据SQL文件" />
     <MESSAGE value="完成账务列表功能" />
     <MESSAGE value="创建add.php,delete.php,edit.php" />
-    <option name="LAST_COMMIT_MESSAGE" value="创建add.php,delete.php,edit.php" />
+    <MESSAGE value="完成Version1.0版本所有功能：财务列表，添加，编辑，删除" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成Version1.0版本所有功能：财务列表，添加，编辑，删除" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
