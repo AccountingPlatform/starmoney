@@ -35,15 +35,15 @@ if (isset($_POST['submit'])) {
 </head>
 <body>
 <div id="content">
-    <div id="menu">
+    <div id="menu" class="clearfix">
         <ul>
-            <li><a href="index.php">Index</a></li>
-            <li><a href="add.php">Add</a></li>
+            <li><a href="index.php">本月清单</a></li>
+            <li><a href="add.php">添加账单</a></li>
         </ul>
     </div>
     <form id="detail_form" method="post" action="">
         <div class="control">
-            <label>Date</label>
+            <label>日期</label>
 
             <div class="data">
                 <input type="text" name="date" value="<?= date("Y-m-d") ?>">
@@ -51,7 +51,7 @@ if (isset($_POST['submit'])) {
             <i>Please input date</i>
         </div>
         <div class="control">
-            <label>Type</label>
+            <label>类型</label>
 
             <div class="data">
                 <select name="type">
@@ -62,7 +62,7 @@ if (isset($_POST['submit'])) {
             <i>Please select type</i>
         </div>
         <div class="control">
-            <label>Money</label>
+            <label>金额</label>
 
             <div class="data">
                 <input type="text" name="money">
@@ -70,7 +70,7 @@ if (isset($_POST['submit'])) {
             <i>Please input money</i>
         </div>
         <div class="control">
-            <label>Note</label>
+            <label>备注</label>
 
             <div class="data">
                 <textarea name="note"></textarea>
@@ -78,7 +78,7 @@ if (isset($_POST['submit'])) {
             <i>Please input note</i>
         </div>
         <div class="control">
-            <label>Operator</label>
+            <label>经办人</label>
 
             <div class="data">
                 <input type="text" name="operator" value="本人">

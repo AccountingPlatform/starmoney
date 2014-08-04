@@ -7,8 +7,8 @@
  */
 
 header("Content-Type:text/html;charset=utf-8");
-require_once __DIR__ . "/lib/excel/reader.php";
-require_once __DIR__ . "/env.php";
+require_once __DIR__ . "/../lib/excel/reader.php";
+require_once __DIR__ . "/../env.php";
 $sql = "TRUNCATE table `detail`";
 $result = mysql_query($sql);
 if ($result) {

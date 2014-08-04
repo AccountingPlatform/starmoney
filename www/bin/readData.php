@@ -6,7 +6,8 @@
  * Time: 下午8:58
  */
 header("Content-Type:text/html;charset=utf-8");
-include __DIR__ . "/lib/excel/reader.php";
+require_once __DIR__ . "/../lib/excel/reader.php";
+require_once __DIR__ . "/../env.php";
 $reader = new Spreadsheet_Excel_Reader();
 $reader->setOutputEncoding('utf-8');
 $reader->read("data.xls");

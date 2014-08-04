@@ -3,18 +3,21 @@
     padding: 0;
     list-style: none;
 }
+
 .clearfix {
-    clear:both;
+    clear: both;
 }
+
 .clearfix:after {
-    content:'';
-    clear:both;
+    content: '';
+    clear: both;
 }
 
 #content {
-    width:80%;
+    width: 80%;
     margin: 0 auto;
 }
+
 #menu {
     height: 30px;
     line-height: 30px;
@@ -33,47 +36,75 @@
 
 #detail_list table th, td {
     text-align: center;
-    height: 20px;
-    line-height: 20px;
+    height: 30px;
+    line-height: 30px;
     border: 1px solid #000;
 }
 
 #detail_form {
-    padding:20px;
-    border:1px solid #000000;
+    padding: 20px;
+    border: 1px solid #000000;
 }
-.control{
+
+.control {
     padding: 10 0;
-    line-height:20px;
-    clear:both;
+    line-height: 20px;
+    clear: both;
 }
-.control:after{
-    clear:both;
-    content:"";
+
+.control:after {
+    clear: both;
+    content: "";
 }
+
 .control label {
-    display:block;
-    width:100px;
-    float:left
+    display: block;
+    width: 100px;
+    float: left
 }
+
 .control .data {
-    width:250px;
-    float:left;
+    width: 250px;
+    float: left;
 }
+
 .control .data input {
-    height:20px;
-    line-height:20px;
-    width:200px;
+    height: 20px;
+    line-height: 20px;
+    width: 200px;
 }
+
 .control .data textarea {
-    width:200px;
+    width: 200px;
 }
+
 .control .button input {
-    height:30px;
+    height: 30px;
     padding: 0 10px;
-    margin:10px 0;
+    margin: 10px 0;
 }
+
 .control i {
     display: block;
-    float:left;
+    float: left;
+}
+
+#query {
+    line-height:30px;
+}
+
+#count {
+    line-height:50px;
+    border-top:1px solid #000;
+    border-bottom:1px solid #000;
+}
+#count span {
+    display: block;
+    float: left;
+    width: 200px;
+    line-height:50px;
+}
+#footer {
+    text-align: center;
+    line-height: 50px;
 }
