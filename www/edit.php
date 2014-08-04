@@ -71,8 +71,8 @@ if (isset($_POST['submit'])) {
 
             <div class="data">
                 <select name="type">
-                    <option value="spend" <?php if ($detail['type'] == 'spend') echo 'selected' ?>>Spend</option>
-                    <option value="income" <?php if ($detail['type'] == 'income') echo 'selected' ?>>Income</option>
+                    <option value="支出" <?php if ($detail['type'] == '支出') echo 'selected' ?>>支出</option>
+                    <option value="收入" <?php if ($detail['type'] == '收入') echo 'selected' ?>>收入</option>
                 </select>
             </div>
             <i>Please select type</i>
@@ -81,7 +81,7 @@ if (isset($_POST['submit'])) {
             <label>Money</label>
 
             <div class="data">
-                <input type="text" name="money" value="<?= $detail['money'] ?>>
+                <input type="text" name="money" value="<?= $detail['money']?>" />
             </div>
             <i>Please input money</i>
         </div>

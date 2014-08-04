@@ -55,8 +55,8 @@ if (isset($_POST['submit'])) {
 
             <div class="data">
                 <select name="type">
-                    <option value="spend" selected>Spend</option>
-                    <option value="income">Income</option>
+                    <option value="支出" selected>支出</option>
+                    <option value="收入">收入</option>
                 </select>
             </div>
             <i>Please select type</i>

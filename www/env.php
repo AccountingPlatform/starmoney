@@ -7,7 +7,7 @@
  */
 header("Content-Type:text/html;charset=utf-8");
 // 定义网站根目录
-define('WEB_ROOT', dirname(dirname(__FILE__)));
+define('WEB_ROOT', dirname(__FILE__));
 // 获取数据库配置文件
 $dbconf = include(WEB_ROOT . "/etc/dbconfig.php");
 // 连接数据库，选择数据库，设置字符集
